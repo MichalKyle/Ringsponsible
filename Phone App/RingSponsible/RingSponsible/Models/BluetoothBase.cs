@@ -122,8 +122,6 @@ namespace RingSponsible.Models
                 // do something value
             });
 
-            Thread.Sleep(TimeSpan.FromSeconds(2000));
-
             await server.Start(new Plugin.BluetoothLE.Server.AdvertisementData
             {
                 LocalName = "TestServer"
@@ -141,15 +139,6 @@ namespace RingSponsible.Models
 
         private async void Get_Default_Adapter()
         {
-            var scanner = CrossBleAdapter.Current.Scan().Subscribe(scanResult =>
-            {
-                // do something with it
-                // the scanresult contains the device, RSSI, and advertisement packet
-
-            });
-            
-
-            var feat = CrossBleAdapter.Current.Features;
             int i = 0;
         }
 

@@ -19,7 +19,7 @@ namespace RingSponsible.ViewModels
 
         public BaseViewModel()
         {
-            bluCore = new BluetoothBase(new BluetoothRecData(Message_Recieved));
+            
         }
 
         bool isBusy = false;
@@ -32,7 +32,7 @@ namespace RingSponsible.ViewModels
         string title = string.Empty;
         public string Title
         {
-            get { return title; }
+            get { bluCore = new BluetoothBase(new BluetoothRecData(Message_Recieved)); return title; }
             set { SetProperty(ref title, value); }
         }
 
