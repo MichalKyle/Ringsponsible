@@ -1,1 +1,0 @@
-C:\Github\Ringsponsible\Phone App\RingSponsible\RingSponsible.UWP\RingSponsible.UWP.csproj;x86

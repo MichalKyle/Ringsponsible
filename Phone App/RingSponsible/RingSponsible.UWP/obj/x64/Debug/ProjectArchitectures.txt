@@ -1,1 +1,0 @@
-C:\Users\Kyle\source\repos\RingSponsible\RingSponsible\RingSponsible.UWP\RingSponsible.UWP.csproj;x64
